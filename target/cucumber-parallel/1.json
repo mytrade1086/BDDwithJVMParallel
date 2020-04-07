@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-07T07:42:31.300Z",
+        "line": 3,
+        "name": "User registration",
+        "description": "",
+        "id": "validating-create-user-page;user-registration",
+        "after": [
+          {
+            "output": [
+              "Quiting driver"
+            ],
+            "result": {
+              "duration": 1831166500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24931602100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to rediff login",
+            "match": {
+              "location": "AllSteps.user_navigates_to_rediff_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232700000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click navigates Create User page",
+            "match": {
+              "location": "AllSteps.click_navigates_Create_User_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16972920600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fills the Form data",
+            "match": {
+              "location": "AllSteps.fills_the_Form_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fullname",
+                  "rediffmailid"
+                ]
+              },
+              {
+                "cells": [
+                  "sumit",
+                  "s@s.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Create user page",
+    "description": "",
+    "id": "validating-create-user-page",
+    "keyword": "Feature",
+    "uri": "file:/H:/eclipseWin10Cucumber/BDDwithJVMParallel/src/test/java/features/Register.feature",
+    "tags": []
+  }
+]

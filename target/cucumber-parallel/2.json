@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-07T07:42:31.615Z",
+        "line": 3,
+        "name": "Searching the product as a unsigned user",
+        "description": "",
+        "id": "searching-the-product;searching-the-product-as-a-unsigned-user",
+        "after": [
+          {
+            "output": [
+              "Quiting driver"
+            ],
+            "result": {
+              "duration": 1183523200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24615038100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to rediff login",
+            "match": {
+              "location": "AllSteps.user_navigates_to_rediff_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18836472400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches product \"levi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"levi\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AllSteps.user_searches_product(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching the product",
+    "description": "",
+    "id": "searching-the-product",
+    "keyword": "Feature",
+    "uri": "file:/H:/eclipseWin10Cucumber/BDDwithJVMParallel/src/test/java/features/searchProduct.feature",
+    "tags": []
+  }
+]
